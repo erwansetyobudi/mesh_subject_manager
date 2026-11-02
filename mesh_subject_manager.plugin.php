@@ -3,7 +3,9 @@
  * Plugin Name: MeSH Subject Manager
  * Description: MeSH 2026 + bundled NLM 2026 installer + recommendation, integrated with Add/Edit Bibliography via SLiMS hook; no core modifications.
  * Version: 1.9.3
- * Author: Library Development
+ * Author: Erwan Setyo Budi
+ * Author URI: https://github.com/erwansetyobudi/
+ * Plugin URI: https://github.com/erwansetyobudi/mesh_subject_manager
  */
 use SLiMS\Plugins;
 $meshPlugins = Plugins::getInstance();

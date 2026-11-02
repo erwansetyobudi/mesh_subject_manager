@@ -1,4 +1,13 @@
 <?php
+/*
+ * File: mesh_tree_api.php
+ * Created on Mon Nov 02 2026
+ * Last Updated: Mon Nov 02 2026 5:12:04 PM
+ * Author: Erwan Setyo Budi
+ * Email: erwans818@gmail.com
+ * License: The GNU General Public License, Version 3 (GPL-3.0) - Copyright (C) 2026 Erwan Setyo Budi. This program is free software.
+ */
+
 /** JSON endpoint routed through the SLiMS plugin container. */
 defined('INDEX_AUTH') OR die('No direct access');
 require_once SB.'admin/default/session.inc.php';

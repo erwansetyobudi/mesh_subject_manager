@@ -1,4 +1,13 @@
 <?php
+/*
+ * File: installer.php
+ * Created on Mon Nov 02 2026
+ * Last Updated: Mon Nov 02 2026 5:10:49 PM
+ * Author: Erwan Setyo Budi
+ * Email: erwans818@gmail.com
+ * License: The GNU General Public License, Version 3 (GPL-3.0) - Copyright (C) 2026 Erwan Setyo Budi. This program is free software.
+ */
+
 /** Safe, resumable SQL-batch installer for the bundled MeSH dataset. */
 function msm_install_manifest(): array {
     $raw = file_get_contents(__DIR__.'/manifest.json');

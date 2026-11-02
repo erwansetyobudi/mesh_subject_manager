@@ -1,4 +1,13 @@
 <?php
+/*
+ * File: schema.php
+ * Created on Mon Nov 02 2026
+ * Last Updated: Mon Nov 02 2026 5:12:35 PM
+ * Author: Erwan Setyo Budi
+ * Email: erwans818@gmail.com
+ * License: The GNU General Public License, Version 3 (GPL-3.0) - Copyright (C) 2026 Erwan Setyo Budi. This program is free software.
+ */
+
 function msm_schema(mysqli $dbs): void {
  $queries = [
  "CREATE TABLE IF NOT EXISTS mesh_descriptors (mesh_id VARCHAR(16) NOT NULL PRIMARY KEY, descriptor_name VARCHAR(512) NOT NULL, scope_note MEDIUMTEXT NULL, descriptor_class VARCHAR(8) NULL, dataset_year SMALLINT NOT NULL DEFAULT 2026, KEY idx_name (descriptor_name(190))) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4",

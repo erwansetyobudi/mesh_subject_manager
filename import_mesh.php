@@ -1,4 +1,13 @@
 <?php
+/*
+ * File: import_mesh.php
+ * Created on Mon Nov 02 2026
+ * Last Updated: Mon Nov 02 2026 5:10:25 PM
+ * Author: Erwan Setyo Budi
+ * Email: erwans818@gmail.com
+ * License: The GNU General Public License, Version 3 (GPL-3.0) - Copyright (C) 2026 Erwan Setyo Budi. This program is free software.
+ */
+
 /** CLI: php import_mesh.php /absolute/path/desc2026.xml [year] */
 if (PHP_SAPI !== 'cli') { http_response_code(403); exit('CLI only'); }
 if (!extension_loaded('xmlreader') || !extension_loaded('mysqli')) exit("PHP XMLReader dan mysqli diperlukan.\n");

@@ -1,4 +1,13 @@
 <?php
+/*
+ * File: index.php
+ * Created on Mon Nov 02 2026
+ * Last Updated: Mon Nov 02 2026 5:10:38 PM
+ * Author: Erwan Setyo Budi
+ * Email: erwans818@gmail.com
+ * License: The GNU General Public License, Version 3 (GPL-3.0) - Copyright (C) 2026 Erwan Setyo Budi. This program is free software.
+ */
+
 /** MeSH Subject Manager SLiMS 9.8 */
 defined('INDEX_AUTH') OR die('No direct access');
 if (isset($_GET['msm_tree']) && $_GET['msm_tree'] === '1') {

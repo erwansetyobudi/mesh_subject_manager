@@ -1,4 +1,13 @@
 <?php
+/*
+ * File: mesh_biblio_button.inc.php
+ * Created on Mon Nov 02 2026
+ * Last Updated: Mon Nov 02 2026 5:11:02 PM
+ * Author: Erwan Setyo Budi
+ * Email: erwans818@gmail.com
+ * License: The GNU General Public License, Version 3 (GPL-3.0) - Copyright (C) 2026 Erwan Setyo Budi. This program is free software.
+ */
+
 /** Hook-based UI injection. This runs before SLiMS builds the bibliography form. */
 // Popup URL is resolved from the registered MeSH plugin menu in SLiMS admin.
 ?>
