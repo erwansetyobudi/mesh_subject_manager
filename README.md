@@ -148,6 +148,17 @@ MeSH dan NLM Classification adalah sumber terminologi dan klasifikasi milik lemb
 
 Masukan, laporan bug, dan kontribusi pengembangan dapat disampaikan melalui fitur **Issues** pada repositori GitHub tempat proyek dipublikasikan.
 
+## Tampilan
+<img width="1346" height="645" alt="image" src="https://github.com/user-attachments/assets/ca8cdc53-e62a-4449-8cc6-9e230b7cddfc" />
+<img width="1351" height="645" alt="image" src="https://github.com/user-attachments/assets/10b12651-b25c-4dc4-bc07-bd024c830ce8" />
+<img width="1349" height="687" alt="image" src="https://github.com/user-attachments/assets/9d6244fc-601f-4cea-8701-a665605fc89c" />
+<img width="1353" height="649" alt="image" src="https://github.com/user-attachments/assets/23c8b8a9-6aa2-4401-bce4-2e8c1a634bbf" />
+
+
+
+
+
+
 **Lisensi kode:** tambahkan berkas `LICENSE` yang sesuai sebelum mendistribusikan proyek secara publik. Lisensi kode plugin tidak otomatis mengubah ketentuan penggunaan dataset pihak ketiga; periksa ketentuan distribusi sumber data MeSH/NLM secara terpisah.
 
 ---
